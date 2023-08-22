@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: green;
+}
+
+header{
+    background-color: white;
+    text-align: right;
+    padding: 15px;
+}
+
+nav>a{
+    padding: 5px 5px;
+    margin: 0px 2px;
+    text-decoration: none;
+    color: black;
+}
+
+section#top-content{
+    min-width: 1000px;
+    min-height: 500px;
+    max-width: 1920px;
+    max-height: 500px;
+    background-color: black;
+}
